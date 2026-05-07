@@ -111,7 +111,7 @@ def login():
    set_python_enviroment1 = "howlongdi"
    set_python_enviroment2 = "dthistakeyou"
    set_python_enviroment3 = "hardtocrack"
-   set_python_enviroment4 = "password123"
+   set_python_enviroment4 = "password1234"
 
    exclone = set_python_enviroment1+set_python_enviroment2
    inclone = set_python_enviroment3+set_python_enviroment4
@@ -217,7 +217,7 @@ def login():
                      usercommand = input("jimmy@GOOGLE:/Users$   ")
                      if usercommand == "ls":
                            print("jimmy")
-                     elif usercommand == "cd bob":
+                     elif usercommand == "cd jimmy":
                            break
                      elif usercommand == "cd ..":
                            while True:
@@ -275,7 +275,8 @@ def flag_checker():
    while True:
       galf = input("Enter flag: ")
       if galf == flag:
-         print("Congratulations! You have found the flag!")
+         print("Congratulations! You have found the flag and beat my puzzle!")
+         break
       elif galf == "exit":
           start()
       else:
